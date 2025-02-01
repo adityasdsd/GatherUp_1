@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: .5rem;
+}
+
+button.btn {
+    background: #ff7e5f;
+}
+
+.signup-link {
+    margin-top: 10px;
+}
+
+.signup-link a {
+    color: #ff7e5f;
+}
